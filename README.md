@@ -67,23 +67,6 @@ The following variables were used for configuration. Adjust them as you see fit.
 // Keep this above 1000
 #define GPS_UPDATE_INTERVAL 1000
 
-// Number of changes in movement to timeout for GPS streaming
-// Keeps the bag from driving away if there is a problem
-#define GPS_STREAM_TIMEOUT 18
-
-// Number of changes in movement to timeout for GPS waypoints
-// Keeps the bag from driving away if there is a problem
-#define GPS_WAYPOINT_TIMEOUT 45
-```
-
-In order for our servo-driven lid to work, we had to fine tune the start and stop angle so that we could get the right leverage on the lid. They can be given a value between 0 and 180. 
-
-```
-// PWM write for servo locations
-#define SERVO_LID_OPEN 20
-#define SERVO_LID_CLOSE 165
-```
-
 ## Running the Code
 Once you have everything configured property, verify and upload the code to your Arduino. If you are outside, it will take a few seconds for the GPS to acquire a satellite lock. Once it does, it will begin flashing.
 
