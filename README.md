@@ -1,10 +1,9 @@
 # Autonomous-Follow-Me-Bag
-Our autonomous Bag has two modes: GPS Streaming and GPS Waypoint. While in GPS Streaming mode, the bag will follow you by streaming coordinates from your phone. In GPS Waypoint mode, you can send a predetermined set of coordinates that the bag will travel to.
 
 **Disclaimer: When testing the bag, we noticed that the GPS coordinates streamed from Blynk were often inaccurate. While it works for some locations, it doesn't for others. If you want high precision, we highly suggest creating your own Android app to stream GPS coordinates.**
 
 ## Installation
-All files for this project are contained in the `/bagAuto` directory. Open the directory and click the `bag.ino`. The Arduino IDE should open with all of the files in that directory. 
+All files for this project are contained in the `/bagAuto` directory. Open the directory and click the `bagAuto.ino`. The Arduino IDE should open with all of the files in that directory. 
 
 ### Dependencies
 You need to make sure to install the following dependencies through the Arduino library manager (Sketch->Include Library->Manage Libraries...)
